@@ -1,0 +1,13 @@
+.small-text {
+	font-style: italic;
+	color: var(--footer-color);
+
+	span {
+		color: var(--textStyle Color_custom_link);
+		margin-left: 0.5rem;
+
+		&:hover {
+			color: var(--textStyleColor_custom_link_hover);
+		}
+	}
+}

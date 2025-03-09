@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: var(--font-lora);
+	font-weight: 400;
+	color: var(--neutral1);
+}
+
+img {
+	width: 100%;
+
+	object-fit: cover;
+	display: block;
+}
+
+ul {
+	list-style: none;
+	display: block;
+
+	li {
+		color: inherit;
+		font-family: inherit;
+		font-size: inherit;
+	}
+}
+
+p {
+	line-height: 1.4;
+}
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	display: inline-block;
+}
+
+button {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}

@@ -1,0 +1,30 @@
+:root {
+	--font-roboto: 'Roboto';
+	--font-lora: 'Lora';
+
+	--brand: #79a690;
+	--secondary: #87bba2;
+	--complementary: #1a1e29;
+	--neutral1: #333333;
+	--neutral2: rgb(255, 255, 255);
+	--footer-color: #4e5e66;
+	--textStyleColor_p_default_block: var(--neutral1);
+
+	--textStyleColor_h4_default_block: var(--brand);
+	--textStyleColor_custom_link: #318056;
+	--textStyleColor_custom_link_hover: #318056;
+	--textStyleColor_slider_header: var(--neutral2);
+	--textStyleColor_gallery_header: var(--neutral2);
+	--textStyleColor_p_default_block_white: var(--neutral2);
+
+	--textStyleColor_newsfeed_date: #bababa;
+	--textStyleColor_button_default: var(--neutral2);
+}
+
+$laptop-med: 68.75em; ///1100px
+$laptop: 64em; ///1024px
+$tab-med: 58.125em; ///930px
+$tab: 48em; ///768px
+$mobile-lg: 31.25em; ///479px
+$mobile-med: 25em; ///400px
+$mobile-small: 18.75em; ///300px

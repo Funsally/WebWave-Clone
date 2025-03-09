@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Lora -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Roboto -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- FONT AWESOME -->
+		<link
+			rel="stylesheet"
+			href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		/>
+
+		<!-- CSS -->
+		<link href="style.css" rel="stylesheet" />
+
+		<title>Assignment | Website Clone</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav">
+				<div class="nav__logo">
+					<img src="./img/logo.webp" alt="" />
+				</div>
+
+				<div class="nav__right">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="index.html" class="nav__link">home</a>
+						</li>
+						<li class="nav__item">
+							<a href="offer.html" class="nav__link">offer</a>
+						</li>
+						<li class="nav__item">
+							<a href="gallery.html" class="nav__link">gallery</a>
+						</li>
+						<li class="nav__item">
+							<a href="blog.html" class="nav__link">blog</a>
+						</li>
+						<li class="nav__item">
+							<a href="about.html" class="nav__link">about us</a>
+						</li>
+						<li class="nav__item">
+							<a href="contact.html" class="nav__link"></a>contact
+						</li>
+					</ul>
+
+					<button class="btn btn-tertiary"><a href="">sign up</a></button>
+
+					<div class="nav__menu" id="hamburgerMenu" data-menu>
+						<img src="./img/menu-bar.svg" alt="" />
+					</div>
+				</div>
+			</nav>
+			<header class="header">
+				<div class="header__content">
+					<h1 class="heading-1">
+						<span>Adventurers</span>Let yourself be impressed
+					</h1>
+					<button class="btn btn-secondary"><a href="">sign up</a></button>
+				</div>
+			</header>
+			<main class="main">
+				<section class="section__showcase">
+					<article class="section__showcase--heading">
+						<h2 class="heading-2">
+							POWER OF IMPRESSIONS GUARANTEED <span> FEEL EXTREMELY</span>
+						</h2>
+						<p class="section__showcase--p">
+							Curabitur sit amet purus semper tortor tempor lacinia eu in
+							tortor. Integer nisl risus, condimentum sed lacinia in,
+							tincidunt eget mi. Praesent finibus mollis blandit. Suspendisse
+							vulputate turpis et erat iaculis viverra.
+						</p>
+						<p class="small-text">
+							Curabitur sit amet purus semper
+							<span><a href="">Tortor Tempor</a></span>
+						</p>
+					</article>
+
+					<div class="showcase">
+						<div class="showcase__img">
+							<img src="./img/rock climbing.webp" alt="Rock climbing" />
+						</div>
+						<article class="showcase__content">
+							<h3 class="heading-3">rock climbing</h3>
+							<p class="showcase__p">
+								Curabitur sit amet purus semper tortor tempor lacinia eu in
+								tortor. Integer nisl risus, condimentum sed lacinia in.
+							</p>
+							<button class="btn btn-primary">sign up</button>
+						</article>
+					</div>
+
+					<div class="showcase">
+						<div class="showcase__2 showcase__img">
+							<img src="./img/offroad.webp" alt="Car on off road" />
+						</div>
+						<article class="showcase__content">
+							<h3 class="heading-3">extreme offroad</h3>
+							<p class="showcase__p">
+								Curabitur sit amet purus semper tortor tempor lacinia eu in
+								tortor. Integer nisl risus, condimentum sed lacinia in.
+							</p>
+							<button class="btn btn-primary">sign up</button>
+						</article>
+					</div>
+				</section>
+				<section class="section__gallery">
+					<h2 class="heading-2">gallery</h2>
+
+					<div class="gallery">
+						<a href="" class="gallery__1"> </a>
+						<a href="" class="gallery__2"> </a>
+						<a href="" class="gallery__3"> </a>
+						<a href="" class="gallery__4"> </a>
+					</div>
+				</section>
+
+				<section class="section__contact">
+					<p class="section__contact--p">
+						Do you have questions? Suggestions? Write to us.
+					</p>
+					<button class="btn btn-primary"><a href="">Contact</a></button>
+				</section>
+			</main>
+			<footer class="footer">
+				<p class="footer__p">Check us out:</p>
+				<ul class="socials__list">
+					<li class="socials__item">
+						<a href="" class="social__link"
+							><img src="./img/icon-facebook.svg" alt=""
+						/></a>
+					</li>
+					<li class="socials__item">
+						<a href="" class="social__link"
+							><img src="./img/icon-instagram.svg" alt=""
+						/></a>
+					</li>
+					<li class="socials__item">
+						<a href="" class="social__link"
+							><img src="./img/icon-twitter.svg" alt=""
+						/></a>
+					</li>
+				</ul>
+
+				<div class="copyright">
+					<small class="coyright__text">
+						A <span class="white">Web</span
+						><span class="green">Wave</span> website cloned by
+						<a href="">Funsally</a>
+					</small>
+				</div>
+			</footer>
+		</div>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const hamburgerMenu = document.querySelector('.nav__menu');
+				const navList = document.querySelector('.nav__list');
+				const navItems = document.querySelectorAll('.nav__item');
+
+				hamburgerMenu.addEventListener('click', (e) => {
+					e.stopPropagation();
+					navList.classList.toggle('active');
+					hamburgerMenu.classList.toggle('active');
+				});
+
+				document.body.addEventListener('click', () => {
+					if (navList.classList.contains('active')) {
+						navList.classList.remove('active');
+						hamburgerMenu.classList.remove('active');
+					}
+				});
+
+				navList.addEventListener('click', (e) => {
+					e.stopPropagation();
+				});
+
+				navItems.forEach((item) => {
+					item.addEventListener('click', () => {
+						// Remove active class from all li elements
+						navItems.forEach((navItem) => navItem.classList.remove('active'));
+						// Add active class to the clicked li
+						item.classList.add('active');
+					});
+				});
+			});
+		</script>
+	</body>
+</html>

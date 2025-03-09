@@ -1,0 +1,43 @@
+.btn {
+	background-color: transparent;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.6rem;
+	padding: 1.5rem 6rem;
+	border-radius: 10rem;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+
+	&-tertiary {
+		border: 1px solid var(--neutral1);
+		&:hover {
+			background-color: var(--neutral1);
+			color: var(--neutral2);
+		}
+
+		@media screen and (max-width: $laptop-med) {
+			display: none;
+		}
+	}
+
+	&-secondary {
+		background-color: var(--neutral2);
+		color: var(--neutral1);
+		font-weight: 500;
+
+		&:hover {
+			background-color: var(--neutral1);
+			color: var(--neutral2);
+		}
+	}
+
+	&-primary {
+		background-color: var(--brand);
+		color: var(--neutral2);
+
+		&:hover {
+			background-color: var(--textStyleColor_custom_link);
+		}
+	}
+}
